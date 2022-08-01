@@ -1,0 +1,30 @@
+
+My Integration supports LTI 1.3
+
+Login Initiation URL
+https://00a3-190-117-96-173.sa.ngrok.io/login
+Tool Redirect URL(s)
+Separate URLs with commas
+https://00a3-190-117-96-173.sa.ngrok.io/app
+Tool JWKS URL
+For a tool's public key access
+https://00a3-190-117-96-173.sa.ngrok.io/jwks
+
+Important note!
+
+The secret is only shown once. Make note of the application key and secret and store them in a safe and secure location.
+
+Application key
+7c076a33-d822-46be-a77c-b5b2adbc3a0c
+Secret
+o5fiDbGA3WJFrkdPsAg0expPyHc9a8wt
+Application ID
+2bdbdae6-52c1-432c-ace3-637575453bf7
+Issuer
+https://blackboard.com
+Public keyset URL
+https://developer.blackboard.com/api/v1/management/applications/2bdbdae6-52c1-432c-ace3-637575453bf7/jwks.json
+Auth token endpoint
+https://developer.blackboard.com/api/v1/gateway/oauth2/jwttoken
+OIDC auth request endpoint
+https://developer.blackboard.com/api/v1/gateway/oidcauth
